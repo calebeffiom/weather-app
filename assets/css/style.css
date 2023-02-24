@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    /* display: flex; */
+    width: 100%;
+    height: 100vh;
+    background: url(../img/drops-of-rain-on-glass-838815210-5a823cc0a18d9e0036e325e2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 30%;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.container1{
+    width: 90%;
+    height: 50vh;
+    
+    margin-left: auto;
+}
+.content-cont1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-div1{
+    width: 70%;
+    
+}
+input{
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px 10px 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid rgba(234, 229, 229, 0.616) 1px;
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(234, 229, 229, 0.616);
+}
+
+.flex-div2{
+    width: 20%;
+}
+button{
+    background-color:  rgba(234, 229, 229, 0.404);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 30px 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+.inner-section{
+    border-top: solid rgba(234, 229, 229, 0.616) 1px;
+    border-bottom: solid rgba(234, 229, 229, 0.616) 1px;
+}
+.container2{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+}
+.content-cont2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex2-div1{
+    width: 90%;
+}
+.flex2-div2{
+    width: 10%;
+}
+.flex2-div1 p{
+    margin: 50px 0;
+    color: rgba(234, 229, 229, 0.616);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.flex2-div2 p{
+    margin: 50px 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.inner-section h2{
+    margin: 30px 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+.inner2-section{
+    height: 90vh;
+    display: flex;
+    width: 100%;
+}
+
+
+
+.content-cont3{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto 0 0;
+    background-color: rgba(0, 0, 0, 0.363);
+    backdrop-filter: blur(10px);
+    border-top-right-radius: 30px;
+}
+.content-cont3 h2{
+    font-size: 150px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.content-cont3 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+    /* text-align: center; */
+    margin: 70px 0 0;
+}
+#date{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+.flex3{
+    display: flex;
+    /* margin: 0 0 0 40px; */
+    margin: 40px 0 15px 20px;
+}
+.flex3-inner{
+    width: 50px;
+    margin: auto 10px auto 0;
+}
+img{
+    margin: auto;
+}
+#condition{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+}
+@media(max-width:1299px){
+    .content-cont3{
+        padding: 20px 0;
+    }
+    input{
+        font-size: 15px;
+    }
+    .inner-section h2{
+        font-size: 20px;
+    }
+    .content-cont3 h2{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .content-cont3 h3{
+        font-size: 20px;
+        margin: 20px 0 0;
+    }
+    .flex2-div1 p{
+        font-size: 15px;
+    }
+    .flex2-div2 p{
+        font-size: 15px;
+    }
+    .flex3{
+        margin-left: 10px;
+    }
+    #date{
+        font-size: 15px;
+    }
+}
+@media(max-width:850px){
+    .content-cont3{
+        width: 60%;
+    }
+}
+@media(max-width:750px){
+    .content-cont3{
+        width: 40%;
+        display: block;
+    }
+    .flex3{
+        display: block;
+        margin-top: 20px;
+    }
+    .flex3-inner{
+        margin: auto 0;
+    }
+    nav{
+        width: 40%;
+    }
+}
+@media(max-width:550px){
+    nav{
+        width: 60%;
+        height: 52vh;
+    }
+    .inner-section{
+        border-top: none;
+        border-bottom: none;
+    }
+    .inner-section h2{
+        font-size: 15px;
+    }
+    .container1{
+        height: 15vh;
+    }
+    .container2{
+        width: 70%;
+        height: 30vh;
+    }
+    .flex2-div1 p{
+        font-size: 13px;
+        margin: 20px 0;
+    }
+    .flex2-div2 p{
+    
+        font-size: 13px;
+        margin: 20px 0;
+    }
+    .content-cont3{
+        padding: 0 0;
+    }
+}
+@media(max-width:450px){
+    .content-cont3{
+        width: 60%;
+    }
+    nav{
+        width: 60%;
+    }
+    .inner2-section{
+        height: 80vh;
+    }
+}
+@media(max-width:390px){
+    .inner2-section{
+        height: 95vh;
+    }
+    nav{
+        width: 60%;
+    }
+    .content-cont3{
+        width: 70%;
+    }
+}
