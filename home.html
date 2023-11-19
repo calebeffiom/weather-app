@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.weatherapi.com/weather/64x64/day/143.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <section>
+       <nav>
+        <div class="container1">
+            <div class="inner-nav">
+                <div class="content-cont1">
+                    <div class="flex-div1"><input type="search" placeholder="Enter City" id="search"></div><div class="flex-div2"><button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="inner-section">
+                <h2>Weather Details</h2>
+                <div class="content-cont2">
+                    <div class="flex2-div1">
+                        <p>Cloudy</p>
+                        <p>Humidity</p>
+                        <p>Wind</p>
+                        <p>Rain</p>
+                    </div>
+                    <div class="flex2-div2">
+                        <p id="cloudy">86<span>%</span></p>
+                        <p id="humidity">62<span>%</span></p>
+                        <p id="wind">8<span>km/h</span></p>
+                        <p id="rain">8<span>mm</span></p>
+                    </div>
+                </div>
+            </div>
+           </div>
+       </nav>
+       <div class="container">
+        <div class="inner2-section">
+            <div class="content-cont3">
+                <div class="flex1">
+                    <h2 id="degrees">08°</h2>
+                </div>
+                <div class="flex2">
+                    <h3 id="country">London</h3><span id="date">10:09 - sunday, 6 oct 19</span>
+                </div>
+                <div class="flex3">
+                    <div class="flex3-inner"><img src="" alt="" id="icon"></div>
+                    <span id="condition">cloudy</span>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+       </div>
+    </section>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
